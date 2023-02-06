@@ -10,9 +10,9 @@ if (isset($_GET['action'])) {
           home();
           break;
       default :
-          home();
-      }
-    }
+          lost();
+  }
+}
 else {
     home();
 }

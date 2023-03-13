@@ -1,18 +1,18 @@
 <?php
 /**
- * Author   : nicolas.glassey@cpnv.ch
- * Project  : dbConnector
- * Created  : 28.01.2019 - 20:13
- *
+* Author   : nicolas.glassey@cpnv.ch
+* Project  : dbConnector
+* Created  : 28.01.2019 - 20:13
+*
  * Last update :    [01.12.2018 author]
  *                  [add $logName in function setFullPath]
  * Git source  :    [link]
- */
+*/
 
 /**
  * This function is designed to execute a query received as parameter
- * @param $query : must be correctly build for sql (synthaxis) but the protection against sql injection will be done there
- * @return array|null : get the query result (can be null)
+* @param $query : must be correctly build for sql (synthaxis) but the protection against sql injection will be done there
+* @return array|null : get the query result (can be null)
  * Source : http://php.net/manual/en/pdo.prepare.php
  */
 function executeQuerySelect($query){
